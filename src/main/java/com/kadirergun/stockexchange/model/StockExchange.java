@@ -22,8 +22,8 @@ public class StockExchange {
 
     @ManyToMany
     @JoinTable(
-            name = "exchange_stocks",
-            joinColumns = @JoinColumn(name = "exchange_id"),
+            name = "stock_exchange_stock",
+            joinColumns = @JoinColumn(name = "stock_exchange_id"),
             inverseJoinColumns = @JoinColumn(name = "stock_id")
     )
     private List<Stock> stocks;

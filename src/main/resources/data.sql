@@ -1,24 +1,24 @@
 -- Insert into stock table
 INSERT INTO stock (name, description, current_price, last_update) VALUES
-                                                                      ('Stock A', 'Description for Stock A', 100.00, CURRENT_TIMESTAMP),
-                                                                      ('Stock B', 'Description for Stock B', 150.50, CURRENT_TIMESTAMP),
-                                                                      ('Stock C', 'Description for Stock C', 200.75, CURRENT_TIMESTAMP),
-                                                                      ('Stock D', 'Description for Stock D', 250.25, CURRENT_TIMESTAMP),
-                                                                      ('Stock E', 'Description for Stock E', 300.00, CURRENT_TIMESTAMP),
-                                                                      ('Stock F', 'Description for Stock F', 350.00, CURRENT_TIMESTAMP);
+                                                                      ('StockA', 'Description for Stock A', 100.00, CURRENT_TIMESTAMP),
+                                                                      ('StockB', 'Description for Stock B', 150.50, CURRENT_TIMESTAMP),
+                                                                      ('StockC', 'Description for Stock C', 200.75, CURRENT_TIMESTAMP),
+                                                                      ('StockD', 'Description for Stock D', 250.25, CURRENT_TIMESTAMP),
+                                                                      ('StockE', 'Description for Stock E', 300.00, CURRENT_TIMESTAMP),
+                                                                      ('StockF', 'Description for Stock F', 350.00, CURRENT_TIMESTAMP);
 
 -- Insert into stock_exchange table
 INSERT INTO stock_exchange (name, description, live_in_market) VALUES
-                                                                   ('Exchange 1', 'Description for Exchange 1', TRUE),
-                                                                   ('Exchange 2', 'Description for Exchange 2', TRUE),
-                                                                   ('Exchange 3', 'Description for Exchange 3', TRUE),
-                                                                   ('Exchange 4', 'Description for Exchange 4', TRUE),
-                                                                   ('Exchange 5', 'Description for Exchange 5', TRUE),
-                                                                   ('Exchange 6', 'Description for Exchange 6', TRUE),
-                                                                   ('Exchange 7', 'Description for Exchange 7', FALSE),
-                                                                   ('Exchange 8', 'Description for Exchange 8', FALSE),
-                                                                   ('Exchange 9', 'Description for Exchange 9', FALSE),
-                                                                   ('Exchange 10', 'Description for Exchange 10', FALSE);
+                                                                   ('Exchange1', 'Description for Exchange 1', TRUE),
+                                                                   ('Exchange2', 'Description for Exchange 2', TRUE),
+                                                                   ('Exchange3', 'Description for Exchange 3', TRUE),
+                                                                   ('Exchange4', 'Description for Exchange 4', TRUE),
+                                                                   ('Exchange5', 'Description for Exchange 5', TRUE),
+                                                                   ('Exchange6', 'Description for Exchange 6', TRUE),
+                                                                   ('Exchange7', 'Description for Exchange 7', FALSE),
+                                                                   ('Exchange8', 'Description for Exchange 8', FALSE),
+                                                                   ('Exchange9', 'Description for Exchange 9', FALSE),
+                                                                   ('Exchange10', 'Description for Exchange 10', FALSE);
 
 -- Insert into stock_exchange_stock table to establish relationships
 -- Stock A associated with 5 exchanges
